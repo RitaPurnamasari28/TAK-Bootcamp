@@ -4,8 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "SET NODE_ENV=dev && node server.js",
+    "test": "mocha --timeout 10000"
   },
+  "keywords": [
+    "npm"
+  ],
   "author": "rita",
   "license": "ISC",
   "devDependencies": {
